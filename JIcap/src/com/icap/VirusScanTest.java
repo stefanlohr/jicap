@@ -9,11 +9,11 @@ public class VirusScanTest {
     {
         try{
         	// Replace with your ICAP hostname/IP address, icap port and icap service name
-            ICAP icap = new ICAP("127.0.0.1",1344,"srv_clamav");
+            ICAP icap = new ICAP("52.29.184.250",1344,"spfs-av");
             
             // Replace with path to files
             String[] files = new String[]{
-                 "C:/Users/userName/Desktop/Output.txt"
+                 "C:\\temp\\text.txt"
             };
             
             for(String file : files) {
