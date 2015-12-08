@@ -60,6 +60,10 @@ public class ICAP {
 
     private String tempString;
 
+    /*
+    dingsbums
+     */
+
     /**
      * Initializes the socket connection to icap server and IO streams. It asks the server for the available options and
      * changes settings to match it.
